@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B446C6A1964D4A900CFD69D /* RBMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B446C691964D4A900CFD69D /* RBMenu.m */; };
+		7B446C6D1964E1DF00CFD69D /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B446C6C1964E1DF00CFD69D /* NavigationViewController.m */; };
+		7B446C701964EDCF00CFD69D /* FirstSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B446C6F1964EDCF00CFD69D /* FirstSecondViewController.m */; };
+		7B446C731964EFE000CFD69D /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B446C721964EFE000CFD69D /* FourthViewController.m */; };
 		7B9451CC1964CC7E007C2F38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9451CB1964CC7E007C2F38 /* Foundation.framework */; };
 		7B9451CE1964CC7E007C2F38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9451CD1964CC7E007C2F38 /* CoreGraphics.framework */; };
 		7B9451D61964CC7E007C2F38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B9451D41964CC7E007C2F38 /* InfoPlist.strings */; };
@@ -36,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B446C681964D4A900CFD69D /* RBMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBMenu.h; path = "../../RBMenu-master/RBMenu/RBMenu.h"; sourceTree = "<group>"; };
+		7B446C691964D4A900CFD69D /* RBMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBMenu.m; path = "../../RBMenu-master/RBMenu/RBMenu.m"; sourceTree = "<group>"; };
+		7B446C6B1964E1DF00CFD69D /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NavigationViewController.h; path = testingOcrowd2/NavigationViewController.h; sourceTree = "<group>"; };
+		7B446C6C1964E1DF00CFD69D /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NavigationViewController.m; path = testingOcrowd2/NavigationViewController.m; sourceTree = "<group>"; };
+		7B446C6E1964EDCF00CFD69D /* FirstSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstSecondViewController.h; sourceTree = "<group>"; };
+		7B446C6F1964EDCF00CFD69D /* FirstSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstSecondViewController.m; sourceTree = "<group>"; };
+		7B446C711964EFE000CFD69D /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		7B446C721964EFE000CFD69D /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 		7B9451C81964CC7E007C2F38 /* testingOcrowd2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testingOcrowd2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B9451CB1964CC7E007C2F38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7B9451CD1964CC7E007C2F38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,6 +100,8 @@
 		7B9451BF1964CC7E007C2F38 = {
 			isa = PBXGroup;
 			children = (
+				7B446C6B1964E1DF00CFD69D /* NavigationViewController.h */,
+				7B446C6C1964E1DF00CFD69D /* NavigationViewController.m */,
 				7B9451D11964CC7E007C2F38 /* testingOcrowd2 */,
 				7B9451F31964CC7E007C2F38 /* testingOcrowd2Tests */,
 				7B9451CA1964CC7E007C2F38 /* Frameworks */,
@@ -118,14 +132,20 @@
 		7B9451D11964CC7E007C2F38 /* testingOcrowd2 */ = {
 			isa = PBXGroup;
 			children = (
+				7B446C681964D4A900CFD69D /* RBMenu.h */,
+				7B446C691964D4A900CFD69D /* RBMenu.m */,
 				7B9451DA1964CC7E007C2F38 /* AppDelegate.h */,
 				7B9451DB1964CC7E007C2F38 /* AppDelegate.m */,
 				7B9451E01964CC7E007C2F38 /* FirstViewController.h */,
 				7B9451E11964CC7E007C2F38 /* FirstViewController.m */,
+				7B446C6E1964EDCF00CFD69D /* FirstSecondViewController.h */,
+				7B446C6F1964EDCF00CFD69D /* FirstSecondViewController.m */,
 				7B9451E31964CC7E007C2F38 /* SecondViewController.h */,
 				7B9451E41964CC7E007C2F38 /* SecondViewController.m */,
 				7B9452041964CEBA007C2F38 /* ThirdViewController.h */,
 				7B9452051964CEBA007C2F38 /* ThirdViewController.m */,
+				7B446C711964EFE000CFD69D /* FourthViewController.h */,
+				7B446C721964EFE000CFD69D /* FourthViewController.m */,
 				7B9451DD1964CC7E007C2F38 /* Main.storyboard */,
 				7B9451E61964CC7E007C2F38 /* Images.xcassets */,
 				7B9451D21964CC7E007C2F38 /* Supporting Files */,
@@ -260,9 +280,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B9451E51964CC7E007C2F38 /* SecondViewController.m in Sources */,
+				7B446C701964EDCF00CFD69D /* FirstSecondViewController.m in Sources */,
 				7B9452061964CEBA007C2F38 /* ThirdViewController.m in Sources */,
+				7B446C6D1964E1DF00CFD69D /* NavigationViewController.m in Sources */,
 				7B9451DC1964CC7E007C2F38 /* AppDelegate.m in Sources */,
 				7B9451E21964CC7E007C2F38 /* FirstViewController.m in Sources */,
+				7B446C731964EFE000CFD69D /* FourthViewController.m in Sources */,
+				7B446C6A1964D4A900CFD69D /* RBMenu.m in Sources */,
 				7B9451D81964CC7E007C2F38 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,6 +492,7 @@
 				7B9451FF1964CC7E007C2F38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B9452001964CC7E007C2F38 /* Build configuration list for PBXNativeTarget "testingOcrowd2Tests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +501,7 @@
 				7B9452021964CC7E007C2F38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
